@@ -10,9 +10,15 @@ print (third)
     #print ('Вывести на консоль: 2')
 #if first != second and first!= third and second != third:
     #print ('Вывести на консоль: 0')
-if first == second == third:
+#if first == second == third:
+    #print(3)
+#if first == second or first == third or second == third:
+    #print(2)
+#if_elif_else: first == second or first == third or second == third
+#print(0)
+if first==second==third:
     print(3)
-if first == second or first == third or second == third:
+elif first == second or first == third or second == third:
     print(2)
-if_elif_else: first == second or first == third or second == third
-print(0)
+else:
+    print(0)
